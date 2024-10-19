@@ -1,4 +1,5 @@
 "use client";
+import React from "react";
 import { NextUIProvider } from "@nextui-org/react";
 import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
@@ -35,7 +36,7 @@ export default function Page() {
                         <div className="text-[#fff] text-8xl mb-16 type-writer flex item-center font-bold" ref={ref}>
                             AGI-Git
                         </div>
-                        <ConnectButton />
+                        <ConnectButton label="connect wallet" />
                     </div>
                 </div>
             </AppContext>

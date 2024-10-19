@@ -187,7 +187,7 @@ export default function AGIGitCore() {
                     </CardTitle>
                 </div>
                 <div className="flex items-center space-x-4">
-                    <ConnectButton />
+                    <ConnectButton label="connect wallet"/>
                 </div>
             </header>
 
